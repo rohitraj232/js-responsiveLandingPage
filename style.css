@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.nav-links {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+}
+
+.nav-links h2 {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.right-nav-links {
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+
+.right-nav-links h4 {
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.right-nav-links i {
+    display: none;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.right-nav-links button {
+    font-size: 1vw;
+    padding: 0.6vw 1.4vw;
+    border: none;
+    background-color: #FEC805;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    height: calc(100% - 75px);
+    display: flex;
+    position: relative;
+}
+
+.left-part {
+    height: 100%;
+    width: 55%;
+    padding: 5vw 7vw;
+}
+
+.left-part h1 {
+    font-size: 3.5vw;
+    font-weight: 600;
+    line-height: 4vw;
+}
+
+.left-part h1 span {
+    color: #FEC805;
+}
+
+.left-part p {
+    font-size: 1.2vw;
+    margin: 3vw 0vw;
+    color: #666;
+    width: 90%;
+}
+
+.content button {
+    font-size: 1vw;
+    padding: 1vw 2vw;
+    border: none;
+    background-color: #FEC805;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.right-part {
+    height: 100%;
+    width: 45%;
+    background-image: url(https://img.freepik.com/free-vector/programmer-concept-illustration_114360-2923.jpg?size=626&ext=jpg);
+    background-size: cover;
+}
+
+/* Courses Section */
+
+.courses {
+    width: 100%;
+}
+
+.c-heading1 {
+    text-align: center;
+    padding-top: 25px;
+    color: #666;
+}
+
+.c-heading2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.all-course {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.course {
+    width: 300px;
+    height: 400px;
+    background-color: #f2f6f8;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.course-pic {
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+    margin: 15px 10px;
+    padding: 20px;
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?size=626&ext=jpg");
+    background-size: cover;
+}
+
+.course-name {
+    text-align: center;
+    font-weight: 600;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.all-btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn {
+    padding: 0.5vw 1vw !important;
+    background-color: #395B67 !important;
+    border: none !important;
+}
+
+/* Testimonials Section */
+
+.testimonials {
+    width: 100%;
+    height: 70%;
+    background-color: #fff;
+}
+
+.heading-1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.all-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.card-1 {
+    width: 250px;
+    height: 300px;
+    background-color: #E9EDEF;
+    border: none;
+    border-radius: 20px;
+}
+
+.card-1 .pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 70px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1682096246950-fb9c9ace1d51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fG1vZGVsJTIwbWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: top;
+    background-position-x: -38px;
+}
+
+.card-1 p {
+    margin: 15px;
+    text-align: center;
+}
+
+/* Email Section */
+
+.email {
+    width: 100%;
+    height: 60%;
+    background-color: #c3cbcf;
+}
+
+.heading {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.email-box {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+input {
+    width: 35vw;
+    padding: 10px;
+    border: 1px solid rgb(131, 127, 127);
+    border-radius: 5px;
+}
+
+.email-btn {
+    font-size: 1.2vw;
+    display: block;
+    margin: auto;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 600;
+    background-color: #FEC805;
+    color: #fff;
+}
+
+.email-btn:hover {
+    background-color: #2C444E;
+    transition: 1s all ease;
+    color: #fff;
+}
+
+/* Footer */
+
+.f1 {
+    margin-top: 0rem !important;
+}
